@@ -1,4 +1,4 @@
-class YourProject < Formula
+class DirCleanerRust < Formula
   desc "Directory cleaner"
   homepage "https://github.com/yahayaohinoyi/dir-cleaner-rust"
   url "https://github.com/yahayaohinoyi/dir-cleaner-rust/releases/tag/v1.0.0/dir-cleaner-rust"
