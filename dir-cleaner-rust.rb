@@ -5,6 +5,8 @@ class DirCleanerRust < Formula
   sha256 "a28c4784ea95c54ef08eb6ae682724c63ff7ea0775565cee16ed2d3ad650a379"
   version "1.0.0"
 
+  depends_on "rust" => :build
+
   def install
     system "cargo", "build", "--release"
     bin.install "target/release/dir-cleaner-rust"
